@@ -1,0 +1,15 @@
+Second Part to developing my very own Microphone!
+
+For this test, we are etsting the SD Card Reader with the ESp32 to go and see if we are able to get the 
+two to communicate properly. Since I also have never used an SD Card reader with embedded systems, this 
+was all new to me, justlike the INMP441 was with the I2S communication. For the SD card reader, we use 
+the library "SPI", which is just a means of way for the ESp32 to be able to communicate with the SD Card 
+Reader, since it is something that they are able to both understand. The pins on the ESP32 such as GPIO 
+pins 18,19, and 23 are all pins that are already set for the SPI communication, and are pins that are already 
+destined to connect onto the SD card reader, like the SCK (clock), MISO (master in slave out), MOSI (Master out slave in), etc.
+Not only do we need the library SPI, but we also need the library "SD", which is neccesary because it allows us to 
+be able to communicatewith not the SD Card reader...but the SD Card and controlling the SD card file system! 
+Commands such as SD.begin() (connects to teh SD card), SD.open() (creates a file in the SD card),
+file.print("wtv") (writes a text on the file), and many others, are all commands thta allow us to work with 
+the sd card and create files and do what we want with them! This will all be importsnt for the progression of 
+this project as we can get Audio data from the microphone and store our audio data here!
