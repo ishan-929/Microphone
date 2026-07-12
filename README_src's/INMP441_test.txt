@@ -4,14 +4,14 @@ The code named "INMP441" is a code that is meant to test the INMP441 module and 
 able to detect different levels of sound. We arent actually taking any audio data and doing anything
 with it, we are simply just testing how string the sound is that it is detecting, and if it is able to
 communicate with the ESP32. Alot fo the code done is setting up how we want to use the microphone, and 
-establshing an I2C connection between the ESP32 and the INMP441. For example, the library we included brings
-out the ESP32's I2C capabilties, telling it we will be using it. Selecting Port 0 for the ESp32 between zero
-and one to tell the ESP32 that we will vbe utilizing controller number 0. The bit that mentions "I2C config"
-means thta we are setting up a configiration for the I2C setup with teh INMP441 with settings that we have to establish
+establshing an I2S connection between the ESP32 and the INMP441. For example, the library we included brings
+out the ESP32's I2S capabilties, telling it we will be using it. Selecting Port 0 for the ESp32 between zero
+and one to tell the ESP32 that we will vbe utilizing controller number 0. The bit that mentions "I2S config"
+means thta we are setting up a configiration for the I2S setup with teh INMP441 with settings that we have to establish
 later in the code, such as the mode (the master ( ESP32 controls timing) and rx (reciving data for ths, not sending data 
 because it is a microphone) part), sample rate (how many measurments per second, which I put 16k, a pretty solid amount),
-mapping the INMP441 wires (GPIO part), turing on the I2C (its in the void setup), etc. I was able to learn that all this is
-neccesary when setting up an I2C conection. then in the void loop, what we do is first create a simple array to store the
+mapping the INMP441 wires (GPIO part), turing on the I2S (its in the void setup), etc. I was able to learn that all this is
+neccesary when setting up an I2S conection. then in the void loop, what we do is first create a simple array to store the
 numbers. Then, as the INMP441 detects sound, it picks up the audio samples and fills the array. Then after using some math,
 converts the data it has recieevrd into one number to define how loud that point of the auido was by averrging out the audio samples it
 has gotten.
