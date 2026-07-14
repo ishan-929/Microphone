@@ -2,12 +2,12 @@
 #include <SPI.h>
 #include <SD.h>
 
-const int sd = 5;
+const int cs = 5;
 
 void setup() {
     Serial.begin(115200);
 
-    if (!SD.begin(sd)) {
+    if (!SD.begin(cs)) {
         Serial.println("ts didnt initialize SD card");
         return;
     }
