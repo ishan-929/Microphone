@@ -18,7 +18,7 @@ unsigned int lastPressTime= 0;
 bool recording = false;
 
 #define I2S_PORT I2S_NUM_0
-int32_t audioBuffer[60];
+int32_t audioBuffer[64];
 SPIClass customSPI(VSPI);
 File file;
 
@@ -47,40 +47,26 @@ void setup() {
     i2s_driver_install(I2S_PORT, &config, 0, NULL);
     i2s_set_pin(I2S_PORT, &pins);
     customSPI.begin(sd_sck, sd_miso, sd_mosi, sd_cs);
-
-    if (SD.begin(sd_cs, customSPI) == false) {
-        Serial.println("SD card did not initialize");
-        return;
-    }
+    SD.begin(sd_cs, customSPI);
     SD.remove("/test.txt");
     file = SD.open("/test.txt", FILE_WRITE);
-    if (!file) {
-        Serial.println("file not created");
-        return;
-    }
     digitalWrite(greenLed,HIGH);
     digitalWrite(redLed,LOW);
 }
 
 void loop() {
-    Serial.print("button: ");
-    Serial.print(digitalRead(buttonPin));
-    Serial.print("  recording: ");
-    Serial.println(recording);
     if (digitalRead(buttonPin) == LOW) {
-        if (millis() - lastPressTime > 300) {
-            recording = !recording;
-            if (recording == true) {
-                SD.remove("/test.txt");
-                file = SD.open("/test.txt", FILE_WRITE);
-                i2s_zero_dma_buffer(I2S_PORT);
-            }
-            else {
-                file.flush();
-                file.close();
-            }
+        recording = !recording;
+        if (recording == true) {
+            SD.remove("/test.txt");
+            file = SD.open("/test.txt", FILE_WRITE);
+            i2s_zero_dma_buffer(I2S_PORT);
         }
-        lastPressTime = millis();
+        else {
+            file.flush();
+            file.close();
+        }
+        delay(300);
     }
     digitalWrite(greenLed, !recording);
     digitalWrite(redLed, recording);
@@ -89,11 +75,6 @@ void loop() {
         i2s_read(I2S_PORT, &audioBuffer, 240, &bytes, portMAX_DELAY);
         if (bytes > 0) {
             file.write((uint8_t*)audioBuffer, bytes);
-            counter++;
-            if (counter >= 100) {
-                file.flush();
-                counter = 0;
-            }
         }
-    }
+    } 
 }
