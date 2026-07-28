@@ -47,7 +47,9 @@ void setup() {
     i2s_driver_install(I2S_PORT, &config, 0, NULL);
     i2s_set_pin(I2S_PORT, &pins);
     customSPI.begin(sd_sck, sd_miso, sd_mosi, sd_cs);
-    SD.begin(sd_cs, customSPI);
+    if (!SD.begin(sd_cs, customSPI)) {
+    Serial.println("SD init failed!");
+    }
     SD.remove("/test.txt");
     file = SD.open("/test.txt", FILE_WRITE);
     digitalWrite(greenLed,HIGH);
@@ -59,7 +61,7 @@ void loop() {
         recording = !recording;
         if (recording == true) {
             SD.remove("/test.txt");
-            file = SD.open("/test.txt", FILE_WRITE);
+            file = SD.open("/test.txt", "w");
             i2s_zero_dma_buffer(I2S_PORT);
         }
         else {
