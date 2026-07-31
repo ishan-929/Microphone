@@ -1,6 +1,6 @@
 # 📌 Microphone!
 
-> A simple Microphone that you can build to record your Audio Data!
+> A simple Microphone that you can build to record your Audio Data! Is able to store your audio Data into Binary, save that data onto an SD Card, and, by using a python script, you can change that Audio data to a full wav File where you can hear your recorded audio!
 
 ---
 
