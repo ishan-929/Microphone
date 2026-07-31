@@ -15,9 +15,9 @@
 
 ## 🚀 Features
 
-An INMP441 Microphone Module that is able to capture Audio Data (vibrations in the air, or sound)
-A Micro SD Card as well as an SD Card reader that stores that audio data
-LEDs to let you know if your recording or not (green = yes, red = no), and a button to press stop or start to record.
+- An INMP441 Microphone Module that is able to capture Audio Data (vibrations in the air, or sound)
+- A Micro SD Card as well as an SD Card reader that stores that audio data
+- LEDs to let you know if your recording or not (green = yes, red = no), and a button to press stop or start to record.
 
 ---
 
