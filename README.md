@@ -23,7 +23,7 @@
 
 ## 🛒 Bill of Materials
 
-| Item | Quantity | Description / Component | Part / Model Number | Approx. Unit Cost | Link / Source |
+| Item | Quantity | Description / Component with Link | Approx. Unit Cost | 
 | :--- | :---: | :--- | :--- | :---: | :--- |
 | 1 | 1 | [ESP32](https://www.alibaba.com/product-detail/Esp32-Development-Board-Wifi-Ultra-low_1601030060154.html?spm=a2700.prosearch.normal_offer.d_title.733a67afcJ84oK&priceId=3cf063b523884a038f0c1823b3017da3) | $3.00 |
 | 2 | 1 | [BreadBoard](https://www.alibaba.com/product-detail/Stock-New-MB-102-830-Point_62474400468.html?spm=a2700.prosearch.normal_offer.d_title.603467afhc1Apg&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=e492a8e6a65448d5a1d6abf75ea7d892) | $0.65 |
