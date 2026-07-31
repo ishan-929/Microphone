@@ -1,6 +1,6 @@
-# 📌 [Microphone!]
+# 📌 Microphone!
 
-> [A simple Microphone that you can build to record your Audio Data!]
+> A simple Microphone that you can build to record your Audio Data!
 
 ---
 
@@ -15,9 +15,9 @@
 
 ## 🚀 Features
 
-[An INMP441 Microphone Module that is able to capture Audio Data (vibrations in the air, or sound)]  
-[A Micro SD Card as well as an SD Card reader that stores that audio data]  
-[LEDs to let you know if your recording or not (green = yes, red = no), and a button to press stop or start to record.]
+An INMP441 Microphone Module that is able to capture Audio Data (vibrations in the air, or sound)
+A Micro SD Card as well as an SD Card reader that stores that audio data
+LEDs to let you know if your recording or not (green = yes, red = no), and a button to press stop or start to record.
 
 ---
 
@@ -42,4 +42,4 @@
 
 ### 1. Assembly
 **Soldering:** [You might have to solder INMP441 pins and ESP32 pins onto itself, so thats the first step.]
-**Wiring:** [You can check out the pinOut here:] ( <img width="1640" height="1082" alt="Screenshot 2026-07-31 105242" src="https://github.com/user-attachments/assets/af708962-f8ca-4338-abae-3b9d49559cf4" /> )
+**Wiring:** [You can check out the pinOut here:] <img width="1640" height="1082" alt="Screenshot 2026-07-31 105242" src="https://github.com/user-attachments/assets/af708962-f8ca-4338-abae-3b9d49559cf4" /> 
