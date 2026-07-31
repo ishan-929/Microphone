@@ -41,5 +41,5 @@
 ## 🛠️ Steps to Reproduce
 
 ### 1. Assembly
-**Soldering:** [You might have to solder INMP441 pins and ESP32 pins onto itself, so thats the first step.]
-**Wiring:** [You can check out the pinOut here:] <img width="1640" height="1082" alt="Screenshot 2026-07-31 105242" src="https://github.com/user-attachments/assets/af708962-f8ca-4338-abae-3b9d49559cf4" /> 
+- **Soldering:** [You might have to solder INMP441 pins and ESP32 pins onto itself, so thats the first step.]
+- **Wiring:** [You can check out the pinout here:] <img width="1640" height="1082" alt="Screenshot 2026-07-31 105242" src="https://github.com/user-attachments/assets/af708962-f8ca-4338-abae-3b9d49559cf4" /> 
