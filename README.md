@@ -10,6 +10,7 @@
 * 🛒 [Bill of Materials](#-bill-of-materials)
 * 🛠️ [Steps to Reproduce](#️-steps-to-reproduce)
 * 💻 [Usage](#-usage)
+* [AI Declaration](#-AI-Decleration)
 
 ---
 
@@ -18,6 +19,7 @@
 - An INMP441 Microphone Module that is able to capture Audio Data (vibrations in the air, or sound)
 - A Micro SD Card as well as an SD Card reader that stores that audio data
 - LEDs to let you know if your recording or not (green = yes, red = no), and a button to press stop or start to record.
+- ESP32 coded with c++, audio Data Interpreter with Python
 
 ---
 
@@ -42,4 +44,9 @@
 
 ### 1. Assembly
 - **Soldering:** [You might have to solder INMP441 pins and ESP32 pins onto itself, so thats the first step.]
-- **Wiring:** [You can check out the pinout here:] <img width="1640" height="1082" alt="Screenshot 2026-07-31 105242" src="https://github.com/user-attachments/assets/af708962-f8ca-4338-abae-3b9d49559cf4" /> 
+- **Wiring:** [You can check out the pinout here:] <img width="1640" height="1082" alt="Screenshot 2026-07-31 105242" src="https://github.com/user-attachments/assets/af708962-f8ca-4338-abae-3b9d49559cf4" />
+
+
+  ## AI-Decleration
+  - AI was mostly used in combating debugging, VSCode's copilot I believe changed some Json files around because my code at times literally wouldn't work and there wouldn't be anything wrong with the code literally, and I also don't know Json so. Along with a lot of backend
+  - debugging, it was used a little to help setup things I hadn't done before such as number to string conversion for creating the files onto the SD card, and a few logic sense for the rotary encoder button logic when on Screen "recording Screen"
