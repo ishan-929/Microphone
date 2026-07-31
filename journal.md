@@ -122,11 +122,40 @@ button pressed again.
 # July 14th: Learning simple CAD!
 
 CAD is fairly new to me. I started a video lesson course some time ago, but never ended up continuing it.
-CAD is such an essential and fun skill to have int he world of engineering, and I wanted to learn
+CAD is such an essential and fun skill to have int the world of engineering, and I wanted to learn
 especially so that I can take my projects out of a plain breadboard and make them look unique.
 I didnt do anything related to the project since first I gotta hone my skils in CAD so thats 
-just what Im gonna do. Im going to start usng lapse today to start my CAD journey while alos tracking my
+just what Im gonna do. Im going to start usng lapse today to start my CAD journey while also tracking my
 hours learning.
+
+**Total time spent: 1hr**
+
+# July 15th: Finalzing the final Code!
+
+At this point my final code includes millis() and a whole function to where it gets the last press time, which I got from outside help but it just didnt really seem neccesary to me so I just make atrue or false variable that
+says that everytime ther button is pressed, the value of the bool varibale gets reveresed, and from that, the oe is able to know the status of either it should be recording currently or not. This makes the code much simpler and mroe easy to read as. I alos just removed alot of code that I thought was uneccesary like random print statements and checking for if something didnt execute. Thats pretty much it, not much today
+
+**Total time spent: 1hr**
+
+# July 20th: Wriitng the Python script to interpret Audio Data!
+
+Now that the Microphone was working and the binary data would go into a folder into the sd card, I needed
+to convert that data into an actual audio so that I can hear the recording. In order to do this, I would have to convert the binaryu data into a wav file because it is a form of an audio file that i used for high quality audio, 
+so id be using that. TOday was about understanding the python script, which I had to understand bottom to top because
+m,y ptyhion knowledge is pretty limited, but all of my code was just revolving around the functions that came with three libraries in order to do this, which are numpy, wave, and os. Numpy essentially is what is reading the binary data from the binary data file. Import os allws me to work with my operating system, which is useful for creating a new file, which would be the wav file. Import wave lets us
+to create the WAV version of the audio file itself. The code was relatiebly short and had to make i so that it matches my 24 bit INMP441 binary data, grouping data into bits, making it all positive num,bers, etc. 
+
+**Total time spent: 2hr**
+
+# July 28th: Finalizing python script, finishing the project
+
+Today was just very minimal changes to the python script and regular script because I was working on other projects, hence the 8 day later journal entry, and it stoped working, so I just added slight tweaks to get it to work again. Thats pretty much t for this project! (not including CAD Model)
+
+**Total time spent: 1hr**
+
+
+
+
 
 
 
