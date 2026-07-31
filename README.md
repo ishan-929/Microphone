@@ -49,4 +49,4 @@
 
   ## AI-Decleration
   - AI was mostly used in combating debugging, VSCode's copilot I believe changed some Json files around because my code at times literally wouldn't work and there wouldn't be anything wrong with the code literally, and I also don't know Json so. Along with a lot of backend
-  - debugging, it was used a little to help setup things I hadn't done before such as number to string conversion for creating the files onto the SD card, and a few logic sense for the rotary encoder button logic when on Screen "recording Screen"
+    debugging, it was used a little to help setup things I hadn't done before such as number to string conversion for creating the files onto the SD card, and a few logic sense for the rotary encoder button logic when on Screen "recording Screen"
