@@ -24,7 +24,7 @@
 - 2 [220 Ohm Resistors](https://www.alibaba.com/product-detail/Fuse-Resistor-2W-1-100R-150_1600789699976.html?spm=a2700.prosearch.normal_offer.d_title.3e1367afspSEj6&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=8e6c4a268a5c41369eeee7eb861f39ca) , $0.04 
 - 1 [SD Card Reader](https://www.alibaba.com/product-detail/Micro-SD-Card-Module-TF-Card_1601463910540.html?spm=a2700.prosearch.normal_offer.d_title.14c367afjk1aiV&priceId=25debad767474e719ee8c87758902714) , $0.30 
 - 1 [Micro SD Card](https://www.alibaba.com/product-detail/Shine-True-Custom-Mini-SD-Memory_1601595206889.html?spm=a2700.prosearch.normal_offer.d_title.376567afGpLVhv&selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=12dcffaac9154ae1a2794e56279c8a5e) , $1.70 
-- cables as needed (about 14-17) | [Wires](https://www.alibaba.com/product-detail/TZT-Hot-Sell-140pcs-U-Shape_1601466408418.html?spm=a2700.prosearch.normal_offer.d_title.27e067afdBlNmu&priceId=dec8cd697f8a4587b4fe52e36af310c9) , $0.65 
+- cables as needed [about 14-17](https://www.alibaba.com/product-detail/TZT-Hot-Sell-140pcs-U-Shape_1601466408418.html?spm=a2700.prosearch.normal_offer.d_title.27e067afdBlNmu&priceId=dec8cd697f8a4587b4fe52e36af310c9) , $0.65 
 - Total ~$7.40 (not including shipping or anything)
 
 ---
